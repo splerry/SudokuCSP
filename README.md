@@ -8,7 +8,7 @@ Via command line (Windows) navigate to containing folder and run via command: $p
   Algorithm modes: 1 - bruteforce 2 - CSP backtracking (no forward checking or heuristic) 3 - CSP backtracking with forward checking and MRV heuristics (minimum remaining values)
   test case modes: 1 - hard/nearly empty board (takes longest time) 2 - medium difficulty board 3 - easy board (takes shortest time)
 Expected output:
-![/assets/images/githubsudokurepo1.png]
+![screenshot](/assets/images/githubsudokurepo1.png)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 This repo comes with three starting boards included, though these boards can be edited in any text editor and changed to user preference to fit any sudoku puzzle
