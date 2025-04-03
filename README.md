@@ -2,8 +2,8 @@
 Demonstrates knowledge of Constraint Satisfaction Problem solving using Sudoku. Code uses three different methods of increasing efficiency: bruteforce, CSP backtracking, and CSP backtracking with Minimum Remaining Values (MRV) heuristics and forward checking
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Usage: 
-have sudokuCSP.py in the same folder of at least one testcase file (1, 2, or 6 contained in repo)
-Via command line (Windows) navigate to containing folder and run via command: $py ./sudokuCSP.py X testcaseY.csv
+* have sudokuCSP.py in the same folder of at least one testcase file (1, 2, or 6 contained in repo)
+* Via command line (Windows) navigate to containing folder and run via command: $py ./sudokuCSP.py X testcaseY.csv
   where 'X' is the algorithm chosen (1, 2, 3) and 'Y' is the number of the ran testcase (1, 2, 6)
   Algorithm modes: 1 - bruteforce 2 - CSP backtracking (no forward checking or heuristic) 3 - CSP backtracking with forward checking and MRV heuristics (minimum remaining values)
   test case modes: 1 - hard/nearly empty board (takes longest time) 2 - medium difficulty board 3 - easy board (takes shortest time)
